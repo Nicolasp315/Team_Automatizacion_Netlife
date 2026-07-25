@@ -139,13 +139,15 @@ cd Team_Automatizacion_Netlife
 python -m venv entorno
 entorno\Scripts\activate      # Windows
 source entorno/bin/activate   # macOS / Linux
-
+```
 en caso de tener errores para activar el entorno hay que ejecutar:
+```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-
+```
 Y reintentar activar el entorno
 
 # 3. Instalar dependencias dentro del entorno
+```bash
 pip install -r requirements.txt
 ```
 
