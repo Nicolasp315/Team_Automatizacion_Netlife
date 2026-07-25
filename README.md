@@ -140,7 +140,7 @@ python -m venv entorno
 entorno\Scripts\activate      # Windows
 source entorno/bin/activate   # macOS / Linux
 ```
-en caso de tener errores para activar el entorno hay que ejecutar:
+en caso de tener errores para activar el entorno, ejecute el siguiente comando en **Windows PowerShell** (preferiblemente con permisos de administrador):
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
