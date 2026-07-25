@@ -175,6 +175,20 @@ Este script lee los tres documentos `.txt`, los trocea, genera sus embeddings co
 python interfaz_cli.py
 ```
 
+### 6.6 Ejecutar el proyecto nuevamente
+
+Una vez realizada la instalación inicial, no es necesario repetir los pasos anteriores.
+
+Cada vez que desees utilizar el bot:
+
+```bash
+cd C:\Users\TU_USUARIO\Desktop\Proyecto_Team_Automatizacion\Team_Automatizacion_Netlife
+.\venv\Scripts\Activate.ps1
+python interfaz_cli.py
+```
+
+> **Nota:** `build_index.py` solo debe ejecutarse nuevamente si se agregan o modifican documentos que deban indexarse, o si se desea reconstruir el índice.
+
 Comandos disponibles dentro de la CLI:
 
 | Comando | Descripción |
