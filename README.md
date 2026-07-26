@@ -4,6 +4,8 @@ Prototipo funcional de una mesa de ayuda de inteligencia artificial para el Depa
 
 El sistema está compuesto por **agentes especializados construidos con LangChain** que colaboran entre sí, coordinados por un **agente orquestador**, para responder consultas de los colaboradores en lenguaje natural usando una base documental ficticia.
 
+Video explicativo: https://drive.google.com/file/d/16pZkrg5_9wuQXUWkC4HPgSYnl1iblucA/view
+
 > **Nota:** este es un prototipo funcional con fines educativos, no una solución productiva completa.
 
 ---
